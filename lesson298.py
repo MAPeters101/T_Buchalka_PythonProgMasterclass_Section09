@@ -16,5 +16,8 @@ def square(length: int) -> None:
         turtle.forward(length)
         turtle.right(90)
 
-square(120)
+for s in range(72):
+    square(120)
+    turtle.left(5)
+
 turtle.done()
